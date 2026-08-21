@@ -1,0 +1,33 @@
+{
+  "name": "powerup-hello-world",
+  "version": "1.0.0",
+  "description": "A powerup useful for testing",
+  "type": "module",
+  "scripts": {
+    "build": "npx @liolocs/powerups-cli build",
+    "release": "commit-and-tag-version --preset conventionalcommits --path .",
+    "release:dry-run": "commit-and-tag-version --preset conventionalcommits --path . --dry-run"
+  },
+  "keywords": [
+    "powerups-package"
+  ],
+  "powerup": {
+    "instructions": "instructions.ts",
+    "compatibility": {}
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "@liolocs/powerups-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^13.1.2"
+  }
+}
