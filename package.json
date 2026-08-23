@@ -1,5 +1,5 @@
 {
-  "name": "powerup-hello-world",
+  "name": "@liolocs/powerup-hello-world",
   "version": "1.0.1",
   "description": "A powerup useful for testing",
   "type": "module",

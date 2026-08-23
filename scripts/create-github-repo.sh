@@ -1,0 +1,1 @@
+gh repo create powerup-hello-world --public --source=. --remote=origin && git push -u origin master
