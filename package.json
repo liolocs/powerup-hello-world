@@ -3,6 +3,15 @@
   "version": "1.0.1",
   "description": "A powerup useful for testing",
   "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liolocs/powerup-hello-world",
+    "directory": "packages/sdk"
+  },
   "scripts": {
     "build": "npx @liolocs/powerups-cli build",
     "release": "commit-and-tag-version --preset conventionalcommits --path .",
