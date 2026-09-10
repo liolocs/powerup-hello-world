@@ -5,21 +5,21 @@ const instructions: Instructions = {
   type: "single-use",
   description: "A powerup useful for testing",
   variables: {
-    required: [],
-    optional: [],
+    required: ["name"],
+    optional: ["description"],
   },
   intent: [],
   steps: [
     {
-      type: "create",
+      type: "dynamic-create",
       name: "Hello World",
-      template: "src/index.ts",
+      template: "src/dynamic-create/index.ts",
       outputPath: "index.ts",
     },
     {
-      type: "create",
+      type: "dynamic-create",
       name: "package.json",
-      template: "src/packageJson.ts",
+      template: "src/dynamic-create/packageJson.ts",
       outputPath: "package.json",
     }
   ],

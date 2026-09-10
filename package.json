@@ -21,7 +21,7 @@
     "powerups-package"
   ],
   "powerup": {
-    "instructions": "instructions.ts",
+    "instructions": "index.ts",
     "compatibility": {}
   },
   "files": [
@@ -34,7 +34,7 @@
     }
   },
   "dependencies": {
-    "@liolocs/powerups-sdk": "^0.1.0"
+    "@liolocs/powerups-sdk": "^1.1.1"
   },
   "devDependencies": {
     "commit-and-tag-version": "^13.1.2"

@@ -1,30 +1,30 @@
-// instructions.ts
+// index.ts
 import { defineInstructions } from "@liolocs/powerups-sdk";
 var instructions = {
   name: "powerup-hello-world",
   type: "single-use",
   description: "A powerup useful for testing",
   variables: {
-    required: [],
-    optional: []
+    required: ["name"],
+    optional: ["description"]
   },
   intent: [],
   steps: [
     {
-      type: "create",
+      type: "dynamic-create",
       name: "Hello World",
-      template: "src/index.ts",
+      template: "src/dynamic-create/index.ts",
       outputPath: "index.ts"
     },
     {
-      type: "create",
+      type: "dynamic-create",
       name: "package.json",
-      template: "src/packageJson.ts",
+      template: "src/dynamic-create/packageJson.ts",
       outputPath: "package.json"
     }
   ]
 };
-var instructions_default = defineInstructions(instructions, import.meta.url);
+var index_default = defineInstructions(instructions, import.meta.url);
 export {
-  instructions_default as default
+  index_default as default
 };

@@ -3,21 +3,25 @@
   "type": "single-use",
   "description": "A powerup useful for testing",
   "variables": {
-    "required": [],
-    "optional": []
+    "required": [
+      "name"
+    ],
+    "optional": [
+      "description"
+    ]
   },
   "intent": [],
   "steps": [
     {
-      "type": "create",
       "name": "Hello World",
-      "template": "src/index.ts",
+      "type": "dynamic-create",
+      "template": "src/dynamic-create/index.ts",
       "outputPath": "index.ts"
     },
     {
-      "type": "create",
       "name": "package.json",
-      "template": "src/packageJson.ts",
+      "type": "dynamic-create",
+      "template": "src/dynamic-create/packageJson.ts",
       "outputPath": "package.json"
     }
   ]

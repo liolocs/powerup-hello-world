@@ -4,7 +4,7 @@ export default function(variables: Record<string, string>): string {
   const pkg = {
     name,
     version: "1.0.0",
-    description,
+    description: description || "",
     type: "module",
     scripts: {
       dev: "npx tsx index.ts",
