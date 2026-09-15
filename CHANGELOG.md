@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.2](https://github.com/liolocs/powerup-hello-world/compare/v1.1.1...v1.1.2) (2026-09-15)
+
+### Bug Fixes
+
+* build with new cli update ([a10d681](https://github.com/liolocs/powerup-hello-world/commit/a10d6815d66dbd53d0fb67764c6f9d1585ed08ac))
 ## [1.1.1](https://github.com/liolocs/powerup-hello-world/compare/v1.1.0...v1.1.1) (2026-09-10)
 
 ### Bug Fixes
