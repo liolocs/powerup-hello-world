@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.3](https://github.com/liolocs/powerup-hello-world/compare/v1.1.2...v1.1.3) (2026-09-15)
+
+### Bug Fixes
+
+* removed unnecessary index.js from dist ([99b836e](https://github.com/liolocs/powerup-hello-world/commit/99b836ec17c03c648d9539a4443c6558f08baba0))
 ## [1.1.2](https://github.com/liolocs/powerup-hello-world/compare/v1.1.1...v1.1.2) (2026-09-15)
 
 ### Bug Fixes
